@@ -4,9 +4,11 @@
   <title>Simple Jersey</title>
 </head>
 <body>
-<form method="post" action="rest/myresource" >
+<form method="GET" action="rest/ZonnepaneelService" >
   <input name="zonkracht" type="number" />
   <input name="zonstand" type="number" />
+  <input name="bewolkingkans" type="number"/>
+  <input name="seizoen" type="string"/>
   <input type="submit"/>
 </form>
 </body>
